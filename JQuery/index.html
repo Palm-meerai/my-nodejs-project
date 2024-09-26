@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Basic</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#cal").click(function(){
+        let value = $("#result").val();
+        $("#text").text(3.14 * value * value);
+    })
+});
+</script>
+</head>
+    <body>
+        <h1>ยินดีต้อนรับ</h1>
+            <div>
+                <br>
+                <input type="text" id="result">
+                <button id = "cal">Calculate</button>
+                <p id = "text">Result</p>
+            </div>
+    </body>
+</html>

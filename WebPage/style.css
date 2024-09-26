@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Waffle Regular" ;
+  src: url(./font/Waffle\ Regular.otf);
+}
+
+.bebas-neue-regular{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+.image{
+    background: url(./img/S__20332557.jpg);
+    height: 100%;
+    background-position: center 47%;
+    background-size: cover;
+  }
+
+  .frame-image{
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    font-size: 25px;
+    font-family: "Waffle Regular" ;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    width: 600px;
+    position: absolute;
+    margin: 0 550px;
+}
+.text {
+  text-align: center;
+  padding-top: 210px;
+}
+.st {
+  color: #4b4c4d;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+}
+.box1{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 60px;
+  margin: 20px;
+  background: url(./img/box1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box2{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 60px;
+  left: 250px;
+  margin: 20px;
+  background: url(./img/box2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box3{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 60px;
+  left: 500px;
+  margin: 20px;
+  background: url(./img/box3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box4{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 360px;
+  margin: 20px;
+  background: url(./img/box4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box5{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 360px;
+  left: 250px;
+  margin: 20px;
+  background: url(./img/box5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box6{  
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 360px;
+  left: 500px;
+  margin: 20px;
+  background: url(./img/box6.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box7{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 660px;
+  margin: 20px;
+  background: url(./img/box7.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box8{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 660px;
+  left: 250px;
+  margin: 20px;
+  background: url(./img/box8.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box9{
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  top: 660px;
+  left: 500px;
+  margin: 20px;
+  background: url(./img/box9.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+W
+
+.caphead{
+  text-align: justify;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: rgb(83, 73, 73)
+}
+.capdet{
+  padding-left: 30px;
+  margin-top: -20px;
+  font-size: 30px;
+  color: rgb(125, 122, 122)
+}
+.boxmain{
+  width: 750px;
+  margin: 0 28%;
+  margin-top: -100px;
+  border: 10px solid #ccc;
+  padding: 20px;
+  display: block;
+  border-radius: 20px;
+}
+.boxpic {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 180px;
+    left: 1100px;
+    border-radius: 20px;
+}
